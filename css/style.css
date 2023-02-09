@@ -28,7 +28,7 @@ body {
   font-family: 'Open Sans', Tahoma, Verdana, sans-serif;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
 }
 
@@ -362,11 +362,11 @@ a {
 
 .trend-card {
   /* box-sizing: border-box; */
-  width: calc(25% - 0.4rem);
+  width: calc(25% - 4px);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
- 
+  margin: auto;
   position: relative;
  /* min-height: 32rem; */
   background-color: gray;
