@@ -361,11 +361,8 @@ a {
 }
 
 .trend-card {
-  /* box-sizing: border-box;
+  /* box-sizing: border-box; */
   width: calc(25% - 0.4rem);
-  height: 32rem;
-  position: relative; */
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1400,6 +1397,10 @@ margin-left: 1.5rem;
       margin-top: 3.5rem;
     }
 
+    .article__img {
+      width: 100%;
+  }
+
     .article:after {
       content: "";
       display: block;
@@ -1554,7 +1555,6 @@ margin-left: 1.5rem;
         content: '';
         top: 8px;
     }
-
 
     .container {
       
